@@ -1,4 +1,4 @@
-# MDS-Net: Multi-scale Deep Spatial Information Fusion Enhanced 3D Object Detection Network (CVPR 2020)
+# MDS-Net: Multi-scale Deep Spatial Information Fusion Enhanced 3D Object Detection Network
 
 Zixi Chen, Wenbin Zou, Shishun Tian 
 
