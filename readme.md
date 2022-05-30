@@ -43,7 +43,7 @@ If you find our work useful in your research please consider citing our paper:
 Download and unzip the full [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) detection dataset to the folder **/path/to/kitti/**. Then place a softlink (or the actual data) in **data/kitti/**. There are two widely used training/validation set splits for the KITTI dataset. Here we only show the setting of **split1**, you can set **split2** accordingly.
 
   ```shell
-cd D4LCN
+cd MDS-Net
 ln -s /path/to/kitti data/kitti
 ln -s /path/to/kitti/testing data/kitti_split1/testing
   ```
