@@ -1,8 +1,8 @@
 # MDS-Net: Multi-scale Deep Spatial Information Fusion Enhanced 3D Object Detection Network (CVPR 2020)
 
-Mingyu Ding, Yuqi Huo, Hongwei Yi, Zhe Wang, Jianping Shi, Zhiwu Lu, Ping Luo
+Zixi Chen, Wenbin Zou, Shishun Tian 
 
-![image](https://github.com/dingmyu/D4LCN/blob/master/demo.gif)
+![image](https://github.com/Chenzixi1/MDS-Net/blob/master/demo.gif)
 
 ## Introduction
 
@@ -82,9 +82,7 @@ The port can be customized in config files. The training monitor can be viewed a
 
 You can change the batch_size according to the number of GPUs, default: 1 GPUs with batch_size = 2.
 
-If you want to utilize the resnet backbone pre-trained on the COCO dataset, it can be downloaded from [git](https://github.com/ruotianluo/pytorch-faster-rcnn) or [Google Drive](https://drive.google.com/drive/folders/0B7fNdx_jAqhtNE10TDZDbFRuU0E), default: ImageNet pretrained pytorch model. You can also set use_corner and corner_in_3d to False for quick training.
-
-See the configurations in **scripts/config/depth_guided_config** and **scripts/train.py** for details. 
+See the configurations in **scripts/config/yolof_config** and **scripts/train.py** for details. 
 
 ``` 
 sh train.sh
@@ -92,7 +90,7 @@ sh train.sh
 
 ## Testing
 
-We provide the [weights](https://drive.google.com/file/d/1EWrl6-brmrqKJakiTx5tGOE8DA5bdbbr), [model](https://drive.google.com/file/d/1VsmSdy7K9Bnbu6_B7Uvc6Z99ce_tqqyq) and [config file](https://drive.google.com/open?id=1RfV-Q3O0GxDzazNHoWnfk5Vz5y-mbdaB) on the val1 data split available to download.
+We provide the [weights, model and config file](https://pan.baidu.com/s/1GuqU3B5ArAsTORyn9MquBQ?pwd=uhwp#list/path=%2F) on the val1 data split available to download.
 
 Testing requires paths to the configuration file and model weights, exposed variables near the top **scripts/test.py**. To test a configuration and model, simply update the variables and run the test file as below. 
 
@@ -100,10 +98,10 @@ Testing requires paths to the configuration file and model weights, exposed vari
 sh test.sh
 ```
 
-## Acknowledgements
+## Acknowlegment
+The code is heavily borrowed from [D4LCN](https://github.com/dingmyu/D4LCN) and thanks for their contribution.
 
-We thank [Garrick Brazil](https://github.com/garrickbrazil/M3D-RPN) for his great works and repos.
 
 ## Contact
 
-For questions regarding D4LCN, feel free to post here or directly contact the authors (mingyuding@hku.hk).
+For questions regarding MDS-Net, feel free to post here or directly contact the authors (zixichen1@163.com).
