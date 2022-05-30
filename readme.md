@@ -80,7 +80,7 @@ sh visdom.sh
 ```
 The port can be customized in config files. The training monitor can be viewed at [http://localhost:9891](http://localhost:9891). 
 
-You can change the batch_size according to the number of GPUs, default: 4 GPUs with batch_size = 8.
+You can change the batch_size according to the number of GPUs, default: 1 GPUs with batch_size = 2.
 
 If you want to utilize the resnet backbone pre-trained on the COCO dataset, it can be downloaded from [git](https://github.com/ruotianluo/pytorch-faster-rcnn) or [Google Drive](https://drive.google.com/drive/folders/0B7fNdx_jAqhtNE10TDZDbFRuU0E), default: ImageNet pretrained pytorch model. You can also set use_corner and corner_in_3d to False for quick training.
 
